@@ -1,4 +1,8 @@
+# Project is written in Java
 language: java
+# Java version being used is JDK 8
 jdk: oraclejdk8
+# Script to run for the CI pipeline is mvn test -B (-B is non-interactive)
 script: mvn test -B
+# OS distribution to run the pipeline on is Ubuntu Trusty
 dist: trusty
